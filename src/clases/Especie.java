@@ -9,7 +9,7 @@ import java.util.Objects;
 
 /**
  *
- * @author anunez12
+ * @author SP
  */
 public class Especie {
 
@@ -102,8 +102,9 @@ public class Especie {
 
     public static void main(String[] args) {
         Especie esp1 = new Especie("Girasol", 6, "junio", "Seco", "Alto"); 
-        Especie esp2 = new Especie("Margarita",8, "abril", "Humedo","Medio");
-        System.out.println("" + esp1.equals(esp2));                                
+        Especie esp2 = new Especie("Margarita",8, "abril", "Humedo","Medio"); 
+        
+        System.out.println("" + esp1.equals(esp2));                                                  
     }
 
 }
