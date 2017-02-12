@@ -97,8 +97,8 @@ public class Flor {
     }
     public static void main(String[] args) {
         Flor F_num1 = new Flor("Guzmania", "Girasol",567908456,200000); 
-        Flor F_num2 = new Flor("Jasmine","FlorNegro",32891918,300000); 
+        Flor F_num2 = new Flor("Jasmine","FlorBlanca",32891918,300000); 
         
-        System.out.println(""+F_num1.equals(F_num2));        
+        System.out.println(""+F_num1.equals(F_num2));         
     }                
 }
