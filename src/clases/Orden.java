@@ -5,7 +5,6 @@
  */
 package clases;
 
-
 import java.util.Date;
 
 import java.util.Objects;
@@ -112,13 +111,13 @@ public class Orden {
         }
         return true;
     }
+
     public static void main(String[] args) {
-        Orden num1 = new Orden("5/6/2017",12,23,"Girasol",600000);
-        System.out.println(""+num1);    
+        Date fecha = new Date(12, 13, 17);
+        Orden num1 = new Orden(fecha, 12, 23, "Girasol", 600000);
+        Orden num2 = new Orden(fecha, 12, 23, "Girasol", 600000);
         
-    }
-   
-
+        System.out.println(""+num1.equals(num2));               
     }
 
-
+}
